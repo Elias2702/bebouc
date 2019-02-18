@@ -14,7 +14,7 @@ export class AddBook extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost/api/books`).then(res => {
+        axios.get(`/api/books`).then(res => {
             const books = res.data;
 
             this.setState({books});

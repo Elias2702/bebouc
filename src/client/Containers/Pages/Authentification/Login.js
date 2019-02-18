@@ -29,7 +29,7 @@ export class Login extends React.Component {
         e.preventDefault();
 
         axios
-            .post(`http://localhost/api/login`, {
+            .post(`/api/login`, {
                 email: this.state.email,
                 password: this.state.password,
             })
