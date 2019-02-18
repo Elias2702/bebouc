@@ -22,7 +22,6 @@ const reviewSchema = new mongoose.Schema(
         rating: {
             type: Number,
             // Il faudrait le mettre entre intergers 0 et 5
-            required: true,
         },
         comment: {
             type: String,
