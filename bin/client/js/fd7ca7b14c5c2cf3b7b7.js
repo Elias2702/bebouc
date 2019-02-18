@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{12:function(o,p,s){o.exports=s.p+"_/assets/logo_Becode.png"},55:function(o,p,s){o.exports=s.p+"_/assets/logo-bebook.png"},97:function(o,p,s){o.exports=s.p+"_/assets/backgroundimage-gradien-1080p.jpg"}}]);

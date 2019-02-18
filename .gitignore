@@ -30,8 +30,8 @@ bower_components
 .lock-wscript
 
 # Compiled binary
-build/Release
-bin
+# build/Release
+# bin
 
 # Dependency directories
 node_modules/

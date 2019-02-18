@@ -6,7 +6,11 @@
       environment:
         NODE_ENV: "development"
         APP_PORT: 12345
+        PORT: 8080
         JWT_TOKEN: "mybeboucbitchlollollollol"
+        MONGO_ATLAS_LOGIN: "becode"
+        MONGO_ATLAS_PASSWORD: "becode"
+        GOOGLE_BOOKS_KEY: "AIzaSyBYyqtzSRvEiwOIUfHR4KaMzlyo7sNjBgI"
       volumes:
         - "./package.json:/src/app/package.json"
         - "./node_modules:/src/app/node_modules"
