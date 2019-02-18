@@ -24,7 +24,7 @@ export class UserLine extends React.Component {
     handleDelete = event => {
         event.preventDefault();
         axios
-            .delete(`http://localhost/api/users/${this.props.userid}`)
+            .delete(`/api/users/${this.props.userid}`)
             .then(res => {
                 console.log(res);
             })

@@ -39,7 +39,7 @@ export class EditProfil extends React.Component {
 
         if (this.state.password === this.state.confirm_password) {
             axios
-                .put(`http://localhost/api/users/${iduser}`, {
+                .put(`/api/users/${iduser}`, {
                     email: this.state.email,
                     password: this.state.password,
                 })

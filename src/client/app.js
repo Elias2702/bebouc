@@ -37,7 +37,7 @@ class App extends Component {
 
     componentDidUpdate() {
         axios
-            .get("http://localhost/api/auth")
+            .get("/api/auth")
             .then(response => {
                 console.log(response.data);
 

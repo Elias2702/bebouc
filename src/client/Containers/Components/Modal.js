@@ -14,7 +14,7 @@ export class Modal extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost/api/reviews/`).then(res => {
+        axios.get(`/api/reviews/`).then(res => {
             const review = res.data;
 
             this.setState({review});
@@ -24,7 +24,7 @@ export class Modal extends React.Component {
     handleSubmit(e) {
         e.preventDefault();
         axios
-            .post(`http://localhost/api/reviews`, {
+            .post(`/api/reviews`, {
                 authorID: this.state.authorID,
                 authorName: this.state.authorName,
                 authorSurname: this.state.authorSurname,

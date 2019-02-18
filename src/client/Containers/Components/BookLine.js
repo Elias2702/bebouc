@@ -24,7 +24,7 @@ export class BookLine extends React.Component {
     handleDelete = event => {
         event.preventDefault();
         axios
-            .delete(`http://localhost/api/books/${this.props.bookid}`)
+            .delete(`/api/books/${this.props.bookid}`)
             .then(res => {
                 console.log(res);
             })

@@ -34,7 +34,7 @@ export class AddBook extends React.Component {
     handleSubmit(e) {
         e.preventDefault();
         axios
-            .post(`http://localhost/api/books`, {
+            .post(`/api/books`, {
                 title: this.state.title,
                 author: this.state.author,
                 isbn: this.state.isbn,

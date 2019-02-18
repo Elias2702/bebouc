@@ -15,7 +15,7 @@ export default class LoansList extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost/api/loans`).then(res => {
+        axios.get(`/api/loans`).then(res => {
             const loans = res.data;
 
             this.setState({loans});

@@ -24,7 +24,7 @@ export class LoanLine extends React.Component {
     handleDelete = event => {
         event.preventDefault();
         axios
-            .delete(`http://localhost/api/books/${this.props.loanid}`)
+            .delete(`/api/books/${this.props.loanid}`)
             .then(res => {
                 console.log(res);
             })

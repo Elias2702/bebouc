@@ -2,12 +2,12 @@ import axios from "axios";
 const headers = {
     "Content-Type": "application/json",
 };
-const burl = "http://localhost";
+// const burl = "http://localhost";
 
 export default {
     login: function(email, password) {
         return axios.post(
-            `${burl}/api/login`,
+            `/api/login`,
             {
                 email: email,
                 password: password,

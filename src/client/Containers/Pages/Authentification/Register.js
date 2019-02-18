@@ -49,7 +49,7 @@ export class Register extends React.Component {
         e.preventDefault();
         console.log(this.state.admin);
         axios
-            .post(`http://localhost/api/create`, {
+            .post(`/api/create`, {
                 email: this.state.email,
                 password: this.state.password,
                 name: this.state.name,
