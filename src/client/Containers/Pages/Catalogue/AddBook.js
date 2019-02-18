@@ -10,6 +10,8 @@ export class AddBook extends React.Component {
             books: [],
             isBook: false,
             isEbook: false,
+            addbook:"Add Book",
+            addbook_ok:"primary-button",
         };
     }
 
@@ -51,6 +53,8 @@ export class AddBook extends React.Component {
                     this.setState(prevState => {
                         return {
                             books: [...prevState.books, res.data],
+                            addbook: "Add another one",
+                            addbook_ok:"success-button"
                         };
                     });
                 }
@@ -156,8 +160,8 @@ export class AddBook extends React.Component {
 
                                 <button
                                     type="submit"
-                                    className="primary-button">
-                                    {"Add Book"}
+                                    className={this.state.addbook_ok}>
+                                    {this.state.addbook}
                                 </button>
                             </form>
                             <hr />
