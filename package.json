@@ -17,7 +17,7 @@
   "engines": {
     "node": "11.8"
   },
-  "proxy": "https://bebooks-hamilton.herokuapp.com",
+  "proxy": "https://bebouc.herokuapp.com",
   "lint-staged": {
     "*.js": [
       "npx eslint --fix --cache",
