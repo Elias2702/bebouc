@@ -1,5 +1,6 @@
 import * as React from "react";
 import AdminMenu from "./AdminMenu.js";
+import Catalogue from "../Catalogue/Catalogue"
 
 export class HomepageAdmin extends React.Component {
     render() {
@@ -7,6 +8,7 @@ export class HomepageAdmin extends React.Component {
             <div className="backgroundhome">
                 <div className="navAdminMenu">
                     <AdminMenu />
+                    <Catalogue/>
                 </div>
             </div>
         );

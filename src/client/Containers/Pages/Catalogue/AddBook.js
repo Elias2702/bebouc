@@ -10,8 +10,8 @@ export class AddBook extends React.Component {
             books: [],
             isBook: false,
             isEbook: false,
-            addbook:"Add Book",
-            addbook_ok:"primary-button",
+            addbook: "Add Book",
+            addbook_ok: "primary-button",
         };
     }
 
@@ -54,7 +54,7 @@ export class AddBook extends React.Component {
                         return {
                             books: [...prevState.books, res.data],
                             addbook: "Add another one",
-                            addbook_ok:"success-button"
+                            addbook_ok: "success-button",
                         };
                     });
                 }
