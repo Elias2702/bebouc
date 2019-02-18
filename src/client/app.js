@@ -35,7 +35,7 @@ class App extends Component {
         };
     }
 
-    componentDidUpdate() {
+    componentWillMount() {
         axios
             .get("/api/auth")
             .then(response => {
