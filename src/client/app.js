@@ -30,12 +30,12 @@ class App extends Component {
         this.isLogged = this.isLogged.bind(this);
 
         this.state = {
-            auth: false,
+            auth: true,
             isJunior: false,
         };
     }
 
-    componentDidMount() {
+    componentWillUnmount() {
         axios
             .get("/api/auth")
             .then(response => {
