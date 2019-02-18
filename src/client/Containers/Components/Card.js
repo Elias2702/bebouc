@@ -18,7 +18,7 @@ export class Card extends React.Component {
             .get(
                 `https://www.googleapis.com/books/v1/volumes?q=isbn:${
                     this.props.isbn
-                }&key=${process.env.GOOGLE_BOOKS_KEY}`,
+                }&key=`+process.env.GOOGLE_BOOKS_KEY,
             )
             .then(res => {
                 const thumbnail =
