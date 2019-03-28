@@ -1,3 +1,5 @@
+This is a team assignment in the context of a web development training program.
+
 # Libdev
 
 Mock-up: https://www.figma.com/file/bYnVG74TGyxC7Z42F8Z0MBSS/Biblioth%C3%A8que?node-id=0%3A1
